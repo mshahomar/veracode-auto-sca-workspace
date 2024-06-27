@@ -6,7 +6,7 @@ from veracode_api_signing.plugin_requests import RequestsAuthPluginVeracodeHMAC
 
 headers={ 
     'accept-encoding': 'gzip', 
-    'user-agent': 'Bursa Malaysia',
+    'user-agent': 'AbahKo Co',
     'Content-Type': 'application/json' 
     }
 
