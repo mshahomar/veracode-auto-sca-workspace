@@ -111,7 +111,7 @@ def get_agent(workspace_id, api_base_url):
 
 
 def create_agent_token(workspace_id, api_base_url):
-    print("Agent for \"Veracode-GitHub-Action\" doesn't exist and needs to be created")
+    print("Agent for \"Jenkins\" doesn't exist and needs to be created")
     path = f'/srcclr/v3/workspaces/{workspace_id}/agents'
     data = '{"agent_type": "JENKINS", "name": "Jenkins"}'
     create_agent = requests.post(

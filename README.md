@@ -10,3 +10,13 @@ This is for automating the creation of SCA workspace and its agent token.
 
 ### Update:  
 The auth module is no longer required since we have imported the RequestsAuthPluginVeracodeHMAC from the veracode_api_signing.plugin_requests package.
+
+### Usage:
+Before running, ensure you have the following in your environment:
+
+ - export VERACODE_API_KEY_ID=vera01ei-<your 32-character long Veracode API KEY ID>  
+ - export VERACODE_API_KEY_SECRET=vera01es-<your 128-character long Veracode API KEY SECRET>
+
+Your Veracode API Key ID will start with 'vera01ei-' if your platform is ER. Ensure you use the correct api_base_url (refer line 168-173)
+
+
